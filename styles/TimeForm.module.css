@@ -1,0 +1,199 @@
+.form {
+    width: 790px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.form__type {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.type__text {
+    width: 132px;
+    height: 26px;
+
+    background: #8BA5D8;
+    border-radius: 15px 0px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.type__company {
+    padding: 28px 23px 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.company__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #5C5C5C;
+}
+
+.form__time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.time__wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time {
+    padding: 40px 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.time__value {
+    padding-bottom: 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #232323;
+}
+
+.time__city,
+.time__date {
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #5C5C5C;
+}
+
+.time__city {
+    font-weight: 500;
+}
+
+.time__date {
+    font-weight: 400;
+}
+
+.time__route {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.route__titles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    color: #B7BAC1;
+}
+
+.route__graph {
+    margin: 0 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph__point {
+    width: 8px;
+    height: 8px;
+
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.graph__line {
+    width: 269px;
+    height: 1px;
+
+    background: #C4C4C4;
+}
+
+.route__way {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    color: #B7BAC1;
+}
+
+.time__choose {
+    padding: 28px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    box-sizing: border-box;
+}
+
+.form__bag {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bag__button {
+    background: none;
+    border: none;
+
+}

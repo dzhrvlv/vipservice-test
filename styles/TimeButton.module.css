@@ -1,0 +1,51 @@
+.timeButton {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B7BAC1;
+    border-radius: 10px;
+
+    padding: 7px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.timeButton:hover {
+    background: #DDE3EE;
+}
+
+.timeButton:active,
+.timeButtonSelected {
+    background: #DDE3EE;
+    /*padding: 10px 18px;*/
+    /*border: none;*/
+
+    border-color: #DDE3EE;
+    transform: scale(1.1);
+}
+
+.timeButton__from {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #232323;
+}
+
+.timeButton__dash,
+.timeButton__where {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #232323;
+}

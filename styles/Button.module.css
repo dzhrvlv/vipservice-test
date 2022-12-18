@@ -1,0 +1,37 @@
+.button {
+    width: 158px;
+    height: 40px;
+
+    background: #5C87DB;
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: none;
+
+    color: #FFFFFF;
+
+    /*padding: 12px;*/
+}
+
+.button:hover {
+    background: #3E67B7;
+}
+
+.button:active {
+    background: #5C87DB;
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(92, 135, 219, 0.15);
+}
+
+.button:disabled {
+    background: #B7BAC1;
+}
